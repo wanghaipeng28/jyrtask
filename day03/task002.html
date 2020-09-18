@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>求职申请</title>
+  </head>
+  <body>
+    <h2>--&gt;&gt;
+    <mark bgcolor="yellow">求职申请&lt;&lt;--</mark>
+    </h2>
+    <form action="#">
+      <table cellpadding="5">
+        <tr>
+          <td align="right">用户名：</td>
+          <td><input type="text" placeholder="请输入用户名"></td>
+        </tr>
+        <tr>
+          <td align="right">密码：</td>
+          <td><input type="password"></td>
+        </tr>
+        <tr>
+          <td align="right">籍贯：</td>
+          <td>
+            <select >
+              <option value="bj">北京</option>
+              <option selected value="nj">南京</option>
+              <option value="gz">广州</option>
+              <option value="sz">深圳</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">性别：</td>
+          <td>
+            <label><input name="xb" type="radio">男</label>
+            <label><input name="xb" type="radio">女</label>
+            <label><input name="xb" type="radio">不透露</label>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">头像：</td>
+          <td>
+            <input type="file">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">愿意到以下城市工作：</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <select multiple size="5">
+              <option value="">北京</option>
+              <option value="">上海</option>
+              <option value="">深圳</option>
+              <option value="">南京</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>留言：</td>
+          <td>
+          <textarea cols="15" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit">
+            <input type="reset" value="清除">
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+          <label for=""><input type="checkbox">不要公开我的信息
+          </label>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
