@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>监管检查表</title>
+    <style>
+      /*给table添加下、右边框*/
+      table{
+        border-right:1px solid #000;
+        border-bottom:1px solid #000
+      }
+      /*给td添加上、左边框*/
+      table td,table th{
+        border-left:1px solid #000;
+        border-top:1px solid #000
+      }
+    </style>
+  </head>
+  <body>
+    <div align="-webkit-center">
+      <table border="0" width="80%" cellspacing="0" cellpadding="16">
+        <tr >
+          <th colspan="8" style="font-size:24px">专利代理机构、代理师监管检查表</th>
+        </tr>
+        <tr>
+          <th colspan="2">任务名称</th>
+          <td colspan="2">系统自动生成</td>
+          <th width="10%">任务编码</th>
+          <td width="10%">系统自动生成</td>
+          <th width="16%">任务类型</th>
+          <td width="16%">系统自动生成</td>
+        </tr>
+        <tr>
+          <th colspan="2">检查对象名称</th>
+          <td colspan="2">系统自动生成</td>
+          <th>主体编码</th>
+          <td>系统自动生成</td>
+          <th>主体类型</th>
+          <td>系统自动生成</td>
+        </tr>
+        <tr>
+          <th colspan="2">企业地址</th>
+          <td colspan="2">系统自动生成</td>
+          <th>联系人</th>
+          <td>系统自动生成</td>
+          <th>联系电话</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th colspan="2">核查方式（√）</th>
+          <td colspan="6">
+            <label><input type="checkbox" >实地核查</label>
+            <label><input type="checkbox" >书面检查</label>
+            <label><input type="checkbox" >行政部门检查结果或专业意见</label>
+            <label><input type="checkbox" >检验检测</label>
+            <label><input type="checkbox" >网络检测</label>
+            <label><input type="checkbox" >委托专业机构辅助</label>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2">现场核查材料（√）</th>
+          <td colspan="6">
+            <label><input type="checkbox" >营业执照</label>
+            <label><input type="checkbox" >印章</label>
+            <label><input type="checkbox" >银行开户许可证和财务报表</label>
+            <label><input type="checkbox" >经营合同</label>
+            <label><input type="checkbox" >房租产权证明或租赁协议</label>
+            <label><input type="checkbox" >股东会决议</label>
+            <label><input type="checkbox" >法定代表人和自然人身份证件</label>
+            <label><input type="checkbox" >代理机构执业证</label>
+            <label><input type="checkbox" >其它</label>
+          </td>
+        </tr>
+        <tr>
+          <th>序号</th>
+          <th colspan="2">检查项目</th>
+          <th>检查内容</th>
+          <th colspan="2">操作方法与要领</th>
+          <th>是否检查</th>
+          <th>发现问题</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td rowspan="2" colspan="2">专利代理机构主体资格和执业纸质检查</td>
+          <td>注册信息是否一致性。</td>
+          <td colspan="2">合伙企业或公司：<br>
+          查看企业营业执照，扫描执照二维码，或者登记平台、警示系统或执法监管平台，验证执照是否真实，核对执照上载明信息是否一致。登录国家知识产权局专利代理管理系统  <br>
+          (http://dlgl.cnipa.gov.cn/),核查信息是否与企业信用信息公示系统中的信息一致。  <br>
+          律所：<br>
+          登录国家知识产权局专利代理管理系统，核查是否与在主管司法机关登记的信息一致（
+            <mark color="ddd">中国法律服务网http://www.12348.gov.cn</mark>）。
+          </td>
+          <td>
+            <label><input type="radio" name="1">是</label>
+            <label><input type="radio" name="1">否</label>
+          </td>
+          <td>
+            <label><input type="radio" name="2">否</label>
+            <label><input type="radio" name="2">是</label>
+            <hr style="margin-top:18px">
+          </td>
+        </tr>
+        <tr>
+        <td>2</td>
+          <td>使用名称是否与登记注册的名称一致</td>
+          <td colspan="2">检查印章、银行账户、牌匾、信笺等所使用的名称是否与登记注册的名称相同（牌匾可适当简化），有无冒用行为。
+          </td>
+          <td>
+            <label><input type="radio" name="1">是</label>
+            <label><input type="radio" name="1">否</label>
+          </td>
+          <td>
+            <label><input type="radio" name="2">否</label>
+            <label><input type="radio" name="2">是</label>
+            <hr style="margin-top:18px">
+          </td>
+        </tr>
+        <tr>
+          <td  height="100px" colspan="2">检查组员签名</td>
+          <td colspan="3" align="right" valign="bottom">年&nbsp;&nbsp;月&nbsp;&nbsp;日</td>
+          <td>检查组长签名</td>
+          <td colspan="2" align="right" valign="bottom" >年&nbsp;&nbsp;月&nbsp;&nbsp;日</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
