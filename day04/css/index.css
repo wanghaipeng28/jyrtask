@@ -1,0 +1,27 @@
+nav{
+  margin-top: 70px;
+  width: 550px;
+  overflow: auto;
+  border: 1px solid #333;
+}
+div{
+  width: 805px;
+  height: 125px;
+}
+img{
+  width: 100px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #000;
+}
+img:hover{
+  border-color: #f00;
+}
+#d1{
+  border: 50px solid #00f;
+  width: 0px;
+  height: 0px;
+  border-right-color: green;
+  border-left-color: yellow;
+  border-bottom-color: red;
+}
