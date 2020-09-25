@@ -1,0 +1,45 @@
+#d1{
+  border:1px solid #d0e4c2;
+  width:1000px;
+  height:170px;
+  margin-top:30px;
+  padding:12px;
+}
+#star{
+  background-image:url("./images/iconlist_1.png");
+  background-repeat: no-repeat;
+  width:75px;
+  height:15px;
+  background-position: -139px -238px;
+  margin:0px 0px 5px; 
+}
+hr{
+  height:0px;
+  border-top:none;
+}
+.c1{
+  font-size:20px;
+  margin:10px 0px;
+}
+.c2{
+  background:#fdd;
+}
+button{
+  font-size:20px;
+  margin:3px 5px;
+  background-image:linear-gradient(180deg,#999,#f9f9f9 100%);
+}
+h5>a{
+  border:1px solid #ccc;
+  padding:5px 10px;
+  border-radius:4px;
+}
+h5>a:hover{
+  background-color:#005aa0;
+  color:white;
+}
+#a1{
+  border-color:transparent;
+  background-color: transparent;
+  color:#000;
+}
