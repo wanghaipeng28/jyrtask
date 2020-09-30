@@ -1,0 +1,43 @@
+#d2{
+  background: url("./images/iconlist_1.png") no-repeat;
+  width:76px;
+  height:15px;
+  background-position:-138px -238px;
+}
+
+#d1{
+  border: 1px solid green;
+  width: 950px;
+  height:180px;
+  margin: 20px 0px 0px 5px;
+  padding: 3px 3px 0px 5px;
+  font-size: 20px;
+}
+p{
+  margin:5px 0px;
+}
+p span{
+  background: #fdd;
+}
+.i1{
+  width: 70px;
+  height: 35px;
+  font-size:18px;
+  background-image:linear-gradient(to bottom,#ddd 0%,#aaa 100%);
+  margin:10px 0px 5px 10px;
+}
+h5>a{
+  border:1px solid #ddd;
+  margin:0px 3px;
+  padding:7px 10px;
+  border-radius:5px;
+}
+a:hover{
+  background-color:blue;
+  color:white;
+}
+#a1{
+  border-color:transparent;
+  background-color:transparent;
+  color:#000;
+}

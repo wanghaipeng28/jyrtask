@@ -1,0 +1,53 @@
+#d1{
+background-image:url(./images/taobaolog.png);
+width:1100px;
+height:80px;
+margin:30px auto 0px;
+background-repeat:no-repeat;
+background-size:150px 80px;
+}
+#d2{
+  background-image:url("./images/tb1.png");
+  height:400px;
+  width:1100px;
+  margin:30px auto 0px;
+  background-repeat:no-repeat;
+  background-size:440px 340px;
+  background-position: 100px 0px;
+}
+#d3{
+  margin-left:600px;
+border:1px solid #ccc;
+border-top:2px solid red;
+  width:400px;
+  height:320px;
+  padding:13px 40px 0px 50px;
+  background-image:url("./images/tb2.png");
+  background-repeat:no-repeat;
+  background-size:60px;
+  background-position:100% 0%;
+}
+button{
+  border:1px solid red;
+  background-color:red;
+  color:white;
+  width:100%;
+  height:46px;
+  font-size:28px;
+}
+.input-icon{
+  padding-left:45px;
+  height:35px;
+  width:351px;
+  border:1px solid #ddd;
+}
+.input-icon:focus{
+  outline:1px solid blue;
+}
+.username{
+  background:url("./images/user.png") no-repeat;
+}
+.password{
+  background:url("./images/pwd.png") no-repeat;
+  background-size:33px 38px;
+}

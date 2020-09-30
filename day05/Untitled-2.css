@@ -1,0 +1,52 @@
+header{
+  background-image:url("./images/taobaolog.png");
+  width:1100px;
+  height:80px;
+  background-repeat:no-repeat;
+  margin:25px auto 0px;
+  background-size:180px;
+}
+section{
+  background-image:url("./images/tb1.png");
+  width:1100px;
+  height:400px;
+  background-repeat:no-repeat;
+  margin:0px auto;
+  background-size:430px;
+  background-position:110px 50px;
+}
+#d1{
+  margin-left:650px;
+  padding:10px 25px;
+  border:1px solid #ccc;
+  border-top:2px solid red;
+  background-image:url("./images/tb2.png");
+  background-position:100% 0px;
+  background-repeat:no-repeat;
+  background-size:50px;
+  width:350px;
+}
+table{
+  height:360px;
+}
+#d2{
+  font-size:25px;
+  font-weight:bold;
+}
+#d3{
+  background-color:red;
+  font-size:25px;
+  color:white;
+  width:100%
+}
+.in1{
+  width:300px;
+  height:35px;
+  background-image:url("./images/user.png");
+  background-repeat:no-repeat;
+  padding-left:44px;
+}
+.in2{
+  background-image:url("./images/pwd.png");
+  background-size:35px 37px;
+}
