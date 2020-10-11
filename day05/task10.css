@@ -1,0 +1,47 @@
+#d1{
+  border: 1px solid green;
+  width: 850px;
+  padding: 10px;
+  font-size: 20px;
+}
+#star{
+  width: 75px;
+  height: 15px;
+  background-image: url('./images/iconlist_1.png');
+  background-repeat: no-repeat;
+  background-position: -139px -239px;
+}
+#d1 p{
+  margin:5px 0px;
+}
+#d1 span{
+  background-color:#FFEFD8;
+}
+hr{
+  border-color:#d0e4c2;
+  border-top:none;
+  margin-top:3px;
+}
+button{
+  width:80px;
+  height:30px;
+  font-size:18px;
+  background-image: linear-gradient(0deg,#999,#f9f9f9 100%);
+  border:none;
+  margin:3px 5px;
+}
+h5>a{
+  border:1px solid #ccc;
+  border-radius:5px;
+  padding:7px 10px;
+  margin:3px 3px;
+}
+a:hover{
+  background-color:blue;
+  color:white;
+}
+#a1{
+  border:none;
+  background-color:transparent;
+  color:black;
+}
