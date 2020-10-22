@@ -1,0 +1,77 @@
+body{
+  font-family: "微软雅黑";
+  font-size: 16px;
+}
+.nav-top{
+  width: 990px;
+  height: 40px;
+  background-color: #e44144;
+  margin: 0px auto;
+}
+.left-top{
+  width: 210px;
+  height: 40px;
+  background-color: #cd292b;
+  float:left;
+  color:#fff;
+}
+.left-top b{
+  float:right;
+  margin-top:11px;
+  width:18px;
+  height:18px;
+  background-image:url("./iconlist_2.png");
+  background-repeat:no-repeat;
+  background-position:-65px 0px;
+}
+.left-top:hover b{
+  background-position:-65px -23px;
+}
+.head-top{
+  float:left;
+}
+.left-top>a,.head-top a{
+  padding:0px 15px;
+  color:#fff;
+  text-decoration:none;
+  height:40px;
+  display:inline-block;
+  font-weight: bold;
+  line-height:40px;
+}
+.head-top a:hover{
+  background-color:#cd292b;
+}
+.left-aside{
+  border:2px solid #cd292b;
+  width:206px;
+  height:400px;
+  background-color:#f9f9f9;
+  margin-top:-2px;
+  display:none;
+}
+.left-aside a{
+  color:#5B6161;
+  font-size:14px;
+  text-decoration:none;
+}
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+.left-aside li{
+  border:1px solid transparent;
+  padding:3px 5px;
+  margin-top:6px;
+  position:relative;
+  right:-3px;
+}
+.left-aside li:hover{
+  background-color:#fff;
+  border-color:#ccc;
+  border-right-color:#fff;
+}
+.left-top:hover .left-aside{
+  display:block;
+}

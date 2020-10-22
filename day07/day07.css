@@ -1,0 +1,85 @@
+body{
+  font-family:"Î¢ÈíÑÅºÚ";
+}
+nav{
+  background-color:#e44144;
+  width:1200px;
+  height:40px;
+  margin:0px auto;
+}
+.left-top{
+  float:left;
+  width:210px;
+  height:40px;
+  background-color:#cd292b;
+  position:relative;
+}
+.left-top>a,.nav-ul a{
+  display:inline-block;
+  font-size:16px;
+  color:#fff;
+  line-height:40px;
+  text-decoration:none;
+  font-weight:bold;
+  margin-left:20px;
+}
+ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.left-top b{
+  position:absolute;
+  width:20px;
+  height:20px;
+  right:2px;
+  top:10px;
+  background-image:url('./iconlist_2.png');
+  background-repeat:no-repeat;
+  background-position:-65px 0px;
+}
+.left-top:hover b{
+  background-position:-65px -23px;
+}
+.nav-ul{
+  float:left;
+}
+.nav-ul>li{
+  display:inline-block;
+}
+.nav-ul a{
+  margin-left:0;
+  padding:0px 25px;
+}
+.nav-ul a:hover{
+  background-color:#cd292b;
+}
+.left-top:hover .nav-aside{
+  display:block;
+}
+.nav-aside{
+  display:none;
+  width:206px;
+  height:450px;
+  border:2px solid #cd292b;
+  background-color:#f9f9f9;
+  position:relative;
+  top:-2px;
+}
+.nav-aside li{
+  margin:10px 2px;
+  padding:4px 10px;
+  border:1px solid transparent;
+  position:relative;
+  right:-4px;
+}
+.nav-aside li:hover{
+  border-color:#ccc;
+  border-right-color:#fff;
+  background-color:#fff;
+}
+.nav-aside li>a{
+  color:#5b6161;
+  font-size:14px;
+  text-decoration:none;
+}
